@@ -210,3 +210,11 @@
 .jssora21rdn {
     background-position: -303px -33px;
 }
+
+.yarn {
+    margin-bottom: 10px;
+}
+
+.yarn .metric .name {
+    font-weight: bold;
+}

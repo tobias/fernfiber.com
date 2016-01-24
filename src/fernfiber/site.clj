@@ -1,5 +1,6 @@
 (ns fernfiber.site
   (:require [clojure.java.io :as io]
+            [clojure.string :as str]
             [hiccup.element :refer [image link-to javascript-tag]]
             [hiccup.page :refer [html5 include-css include-js]]
             [stasis.core :as stasis]))
@@ -25,7 +26,7 @@
         [:span.icon-bar]
         [:span.icon-bar]
         [:span.icon-bar]]
-       (link-to {:class "navbar-brand"} "http://fernfiber.com"
+       (link-to {:class "navbar-brand"} "index.html" #_"http://fernfiber.com"
          (image {:id "navbar-logo"} "img/navbar-logo.png"))]
       [:div#navbar.navbar-collapse.collapse
        [:ul.nav.navbar-nav
@@ -133,13 +134,25 @@
         "In the majestic mountains we call home, ferns grow abundantly in the forests and along sparkling woodland streams. In spring, as the ferns unfurl, tiny new green growth appears. These new leaves represent rebirth, abundance, and connection to the earth. As we gather local herbs, flowers, mushrooms, and barks we think of this earth connection and the way it is portrayed and painted in our yarns. We began our journey as gardeners and herbalists, aligned to the changing seasons and cycles of nature. We delight in using this knowledge of the natural world in our fiber and art."]]]
      (spacer 20)]))
 
+(defn yarn-metric [yarn metric]
+  (let [name (str/capitalize (name metric))]
+    [:div.metric {:class name}
+     [:span.name name ": "]
+     [:span (metric yarn)]]))
+
 (defn yarn-page [site-data]
   (page site-data
     (spacer 60)
     [:div.container.marketing
      [:div.row.featurette
       [:div.col-md-12
-       [:h1 "Our Yarns"]]]]))
+       [:h1 "Our Yarns"]
+       (for [{:keys [name weight description] :as yarn} (:yarns site-data)]
+         [:div.yarn
+          [:h3 name " - " weight]
+          [:p.description description]
+          (map (partial yarn-metric yarn) [:blend :volume :needle :gauge])])]]]
+    (spacer 20)))
 
 (defn get-pages [site-data]
   {"/index.html" (index-page site-data)

@@ -33,7 +33,7 @@
 
  :sharing
  [
-  {:name  "facebook"
+  {:name "facebook"
    :url "http://www.facebook.com/sharer.php?u=http://fernfiber.com"
    :title "Share on Facebook"}
   {:name "twitter"
@@ -48,4 +48,48 @@
   {:name "email"
    :url "mailto:?Subject=Fern%20Fiber&Body=http://fernfiber.com"
    :title "Share by Email"}
+  ]
+
+ :yarns
+ [
+  {:name "Sky"
+   :weight "Fingering Weight"
+   :description "Imagine a meadow mountaintop where the Earth meets the sky.  There is a beautiful place in our mountains called Max Patch.  An incredible meadow, expanding in earth and sky as far as the eye can see.  It has a magnificent 360-degree view of the Blue Ridge Mountains in every direction.  The meadow is full of medicinal wildflowers and grasses waving in the wind like ocean waves.  It is truly a magical experience invoking solitude, explorations and dreaming.  Our Sky base is lustrous and velvety."
+   :blend "50/50 blend of Merino/Silk"
+   :volume "438 yards/100 g"
+   :needle "US #1 - 3/2.25 - 3.25 mm"
+   :gauge "28 - 32 sts/4\""}
+
+  {:name "Seven Sisters"
+   :weight "Fingering Weight"
+   :description "The Seven Sisters are a series of mountains found in the Blue Ridge Mountains close to our homes.  Their seven forested peaks ascend south of their father mountain, know as Graybeard.   We like to think of the full moon coming up over the Seven Sisters as their mountain tops reach for the stars.  In the cosmos they are known as a cluster of magical blue stars, The Pleiades, which glitter and shimmer brightly forming a portal into another world. Our Seven Sisters base is gorgeously soft with a luminous halo and a beautiful drape."
+   :blend  "50/25/25 blend of Alpaca/Silk/Linen "
+   :volume "438 yards/100 g"
+   :needle "US #1 - 3/2.25 - 3.25 mm"
+   :gauge "28 - 32 sts/4”"}
+
+  {:name "Mountain Lights"
+   :weight "DK Weight"
+   :description "Lying low in the Blue Ridge Mountains, the Brown Mountain Lights have intrigued visitors for hundreds of years.  During the dark hours of the night, looking across at Brown Mountain, you may have the opportunity to see lights off in the distance, sometimes so many of them you will lose count.  A drifting light here, a bright flashing then slowly fading light over there, the lights never seem to stay the same in intensity, location, or color.   Many myths and legends surround these mysterious lights dating back to the 13th century and no scientific theories have yet been proven as to why or how they exist. Named after these mysterious Brown Mountain Lights, our Mountain Lights sparkle base is magical, wondrous, and playful."
+   :blend  "75/20/5 blend of Merino/Silk/Stellina"
+   :volume "231 yards/100 g"
+   :needle "US #6 - 7/4 - 4.5 mm"
+   :gauge "21 - 24 sts/4\""}
+
+  {:name "Roan"
+   :weight "Hefty DK Weight"
+   :description "Roan Mountain ridge is a vision of color in the late spring when long stretches of grassy balds and magnificent rhododendron flower gardens cover the mountain sides.  It is a glorious place for hiking with friends and family picnics.   Our Roan base is comfy and squishy."
+   :blend  "100% US grown Merino"
+   :volume "260 yards/100 g"
+   :needle "US #6 - 7/3.75 - 4 mm"
+   :gauge "21 - 24 sts/4\""}
+
+  {:name "Balsam"
+   :weight "Worsted Weight"
+   :description "Full of magic and medicine, the Black Balsam area abounds with flower filled meadows, playful swimming holes and waterfalls, emerald Spruce/Fir woods, and wide open expanses.  Black Balsam holds a special place in our hearts.  Our Balsam base is a lofty and soft. "
+   :blend  "100% US grown Merino"
+   :volume "218 yards/100 g"
+   :needle "US #7 - 9/4.5 - 5.5 mm"
+   :gauge "16-20 sts/4\""}
+
   ]}
