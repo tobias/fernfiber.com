@@ -1,0 +1,212 @@
+#mc_embed_signup {
+    background:#fff;
+    background-color: #f8f8f8;
+    padding: 5px;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    margin: 5px;
+    width: 200px;
+
+}
+
+
+/* use navbar-wrapper to wrap navigation bar, the purpose is to overlay navigation bar above slider */
+.navbar-wrapper {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 51px;
+}
+.navbar-wrapper > .container {
+    padding: 0;
+}
+
+.navbar-static-top {
+    border-radius: 5px;
+}
+
+.nav > li > a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media all and (max-width: 768px ){
+    .navbar-wrapper {
+        position: relative;
+        top: 0px;
+    }
+    .navbar-static-top {
+        border-radius: 0;
+    }
+}
+
+#navbar-logo {
+    position: relative;
+    top: -12px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    font-style: italic;
+}
+
+.share-icon {
+    display: inline-block;
+    float: left;
+    margin: 4px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    vertical-align: middle;
+    background-image: url(../img/share-icons.png);
+}
+
+.share-facebook {
+    background-position: 0px 0px;
+}
+
+.share-facebook:hover {
+    background-position: 0px -40px;
+}
+
+.share-twitter {
+    background-position: -40px 0px;
+}
+
+.share-twitter:hover {
+    background-position: -40px -40px;
+}
+
+.share-pinterest {
+    background-position: -80px 0px;
+}
+
+.share-pinterest:hover {
+    background-position: -80px -40px;
+}
+
+.share-linkedin {
+    background-position: -240px 0px;
+}
+
+.share-linkedin:hover {
+    background-position: -240px -40px;
+}
+
+
+.share-googleplus {
+    background-position: -120px 0px;
+}
+
+.share-googleplus:hover {
+    background-position: -120px -40px;
+}
+
+
+.share-stumbleupon {
+    background-position: -360px 0px;
+}
+
+.share-stumbleupon:hover {
+    background-position: -360px -40px;
+}
+
+.share-email {
+    background-position: -320px 0px;
+}
+
+.share-email:hover {
+    background-position: -320px -40px;
+}
+
+
+.share-icons-sidebar {
+    position: fixed;
+    display: block;
+    top: 110px;
+    left: 0px;
+    width: 40px;
+    height: 240px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .share-icons-sidebar {
+        display: none;
+    }
+}
+
+
+/* jssor slider bullet navigator skin 21 css */
+/*
+                .jssorb21 div           (normal)
+                .jssorb21 div:hover     (normal mouseover)
+                .jssorb21 .av           (active)
+                .jssorb21 .av:hover     (active mouseover)
+                .jssorb21 .dn           (mousedown)
+*/
+.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
+    background: url(../img/b21.png) no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.jssorb21 div {
+    background-position: -5px -5px;
+}
+
+.jssorb21 div:hover, .jssorb21 .av:hover {
+                         background-position: -35px -5px;
+                     }
+
+.jssorb21 .av {
+    background-position: -65px -5px;
+}
+
+.jssorb21 .dn, .jssorb21 .dn:hover {
+                   background-position: -95px -5px;
+               }
+
+/* jssor slider arrow navigator skin 21 css */
+/*
+                .jssora21l              (normal)
+                .jssora21r              (normal)
+                .jssora21l:hover        (normal mouseover)
+                .jssora21r:hover        (normal mouseover)
+                .jssora21ldn            (mousedown)
+                .jssora21rdn            (mousedown)
+*/
+.jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn {
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background: url(../img/a21.png) center center no-repeat;
+    overflow: hidden;
+}
+
+.jssora21l {
+    background-position: -3px -33px;
+}
+
+.jssora21r {
+    background-position: -63px -33px;
+}
+
+.jssora21l:hover {
+    background-position: -123px -33px;
+}
+
+.jssora21r:hover {
+    background-position: -183px -33px;
+}
+
+.jssora21ldn {
+    background-position: -243px -33px;
+}
+
+.jssora21rdn {
+    background-position: -303px -33px;
+}

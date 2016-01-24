@@ -1,0 +1,51 @@
+{:index-images
+ [
+  "img/web21.jpg"
+  "img/web17.jpg"
+  "img/web4.jpg"
+  "img/web5.jpg"
+  "img/web19.jpg"
+  "img/web6.jpg"
+  "img/web11.jpg"
+  "img/web10.jpg"
+  "img/web7.jpg"
+  "img/web3.jpg"
+  "img/web8.jpg"
+  "img/web9.jpg"
+  "img/web12.jpg"
+  "img/web13.jpg"
+  "img/web15.jpg"
+  "img/web16.jpg"
+  "img/web18.jpg"
+  "img/web20.jpg"
+  ]
+
+ :nav
+ [
+  {:url "http://fernfiber.etsy.com/" :text "SHOP" :attributes {:style "font-weight: bold"}}
+  {:url "http://etsy.com/shop/FernFiber/about/" :text "About Us"}
+  {:url "our-yarns.html" :text "Our Yarns"}
+  {:url "https://facebook.com/pages/Fern-Fiber/747498242023694" :text "On Facebook"}
+  {:url "http://instagram.com/fernfiber/" :text "On Instagram"}
+  {:url "http://pinterest.com/fernfiber/" :text "On Pinterest"}
+  {:url "mailto:info@fernfiber.com" :text "Contact"}
+  ]
+
+ :sharing
+ [
+  {:name  "facebook"
+   :url "http://www.facebook.com/sharer.php?u=http://fernfiber.com"
+   :title "Share on Facebook"}
+  {:name "twitter"
+   :url "http://twitter.com/share?url=http://fernfiber.com"
+   :title "Share on Twitter"}
+  {:name "googleplus"
+   :url "https://plus.google.com/share?url=http://fernfiber.com"
+   :title "Share on Google Plus"}
+  {:name "pinterest"
+   :url "http://pinterest.com/pin/create/button/?url=http://fernfiber.com&media=http://fernfiber.com/img/web13.jpg&description=Fern%20Fiber:%20naturally%20died%20yarns"
+   :title "Share on Pinterest"}
+  {:name "email"
+   :url "mailto:?Subject=Fern%20Fiber&Body=http://fernfiber.com"
+   :title "Share by Email"}
+  ]}
