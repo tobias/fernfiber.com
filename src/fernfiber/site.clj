@@ -103,7 +103,7 @@
      (spacer 20)
      [:div.row.featurette
       [:div.col-md-12
-       (image {:class "pull-left"} "img/logo.png")
+       (image {:class "pull-left logo-inline"} "img/logo.png")
        [:div#mc_embed_signup.pull-right
         [:p "Join our mailing list for shop updates and our newsletter:"]
         [:form#mc-embedded-subscribe-form.validate ;;.form-horizontal
@@ -142,11 +142,19 @@
 
 (defn yarn-page [site-data]
   (page site-data
-    (spacer 60)
+    [:div.header-img
+     (image "img/mtn-crop.png")]
     [:div.container.marketing
      [:div.row.featurette
       [:div.col-md-12
-       [:h1 "Our Yarns"]
+       [:h1#yarn-header "Our Yarns"]
+       [:h2 "Blue Ridge Mountains Local Yarn"]
+       [:p
+        "Our focus is on yarns grown, spun, and dyed in the Blue Ridge Mountains that we call home.  Our local yarns change by the animal, farmer, and season.  We get to know the farmers in our area and purchase fleece directly from them, often taking part in the shearing.  We have these fleeces spun at one of the family mills in our mountains and then generally dye these yarns with our locally grown and harvested plant dyes.  These yarns are unique!  They carry with them a grand story of their creation from fleece and farmer to their final recipient.  You not only get to know a bit about the dye plants that were used on your yarns, and the farms where the fleeces came from, but often you will even know the name of the sheep or alpaca that produced your yarn."]
+       [:p
+        "Our beautiful local yarns are not always available.  When the shearing is done and the yarns have been dyed and sold, we may have to wait until the next shearing season for more fleece. So, we also carry 5 commercial bases in our store. These bases, in line with our belief in living a gentler, more sustainable life, are all non-superwash, US grown or organic, and gently produced."]
+
+       [:h2 "Non-Local Yarn"]
        (for [{:keys [name weight description] :as yarn} (:yarns site-data)]
          [:div.yarn
           [:h3 name " - " weight]

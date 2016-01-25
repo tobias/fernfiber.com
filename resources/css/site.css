@@ -218,3 +218,17 @@
 .yarn .metric .name {
     font-weight: bold;
 }
+
+.header-img img {
+    width: 100%;
+}
+
+#yarn-header {
+    position: absolute;
+    top: -80px;
+    color: #fff;
+}
+
+.logo-inline {
+    width: 25%;
+}
