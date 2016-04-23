@@ -232,3 +232,7 @@
 .logo-inline {
     width: 25%;
 }
+
+.design img {
+    max-width: 95%;
+}

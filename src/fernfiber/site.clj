@@ -159,12 +159,55 @@
          [:div.yarn
           [:h3 name " - " weight]
           [:p.description description]
-          (map (partial yarn-metric yarn) [:blend :volume :needle :gauge])])]]]
+          (map (partial yarn-metric yarn) [:blend :volume :needle :gauge])])
+       [:h2 "Handspun Yarn"]
+       [:p
+        "Along with dyeing, we also love to spin yarn. Occasionally you can find some of our handspun yarn in <a href=\"http://fernfiber.etsy.com/\">our store</a>."]]]]
+    
+    (spacer 20)))
+
+(defn faq-page [site-data]
+  (page site-data
+    [:div.header-img
+     (image "img/mtn-crop.png")]
+    [:div.container.marketing
+     [:div.row.featurette
+      [:div.col-md-12
+       [:h1#yarn-header "Frequently Asked Questions"]
+       (for [[question answer] (:faqs site-data)]
+         [:div.faq
+          [:h3 question]
+          [:p.answer answer]])]]]
+    (spacer 20)))
+
+(defn designs-page [site-data]
+  (page site-data
+    [:div.header-img
+     (image "img/mtn-crop.png")]
+    [:div.container.marketing
+     [:div.row.featurette
+      [:div.col-md-12
+       [:h1#yarn-header "Knitwear Designs"]
+       [:h3
+        "We love to see new designs created with Fern Fiber yarn. Here you'll find some of those lovely designs as well as creations by the Fern Fiber ladies."]
+       (spacer 10)
+       (for [row (partition 2 2 nil (:designs site-data))]
+         [:div
+          [:div.row
+           (for [{:keys [name designer url img description]} row]
+             [:div.col-md-6.design
+              [:p (link-to url (image (str "img/" img)))]
+              [:h4 (link-to url name)]
+              [:p "By " designer]
+              [:p description]])]
+          (spacer 50)])]]]
     (spacer 20)))
 
 (defn get-pages [site-data]
   {"/index.html" (index-page site-data)
-   "/our-yarns.html" (yarn-page site-data)})
+   "/our-yarns.html" (yarn-page site-data)
+   "/faq.html" (faq-page site-data)
+   "/designs.html" (designs-page site-data)})
 
 (defn copy-assets [resource-dir export-dir regex]
   (let [resource-dir' (io/file resource-dir)
