@@ -1,3 +1,5 @@
 #!/bin/bash
 
+boot generate
+
 rsync -avz dist/ fernfiber.com:~/fernfiber.com
