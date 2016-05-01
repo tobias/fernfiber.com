@@ -154,7 +154,7 @@
        [:p
         "Our focus is on yarns grown, spun, and dyed in the Blue Ridge Mountains that we call home.  Our local yarns change by the animal, farmer, and season.  We get to know the farmers in our area and purchase fleece directly from them, often taking part in the shearing.  We have these fleeces spun at one of the family mills in our mountains and then generally dye these yarns with our locally grown and harvested plant dyes.  These yarns are unique!  They carry with them a grand story of their creation from fleece and farmer to their final recipient.  You not only get to know a bit about the dye plants that were used on your yarns, and the farms where the fleeces came from, but often you will even know the name of the sheep or alpaca that produced your yarn."]
        [:p
-        "Our beautiful local yarns are not always available.  When the shearing is done and the yarns have been dyed and sold, we may have to wait until the next shearing season for more fleece. So, we also carry 5 commercial bases in our store. These bases, in line with our belief in living a gentler, more sustainable life, are all non-superwash, US grown or organic, and gently produced."]
+        "Our beautiful local yarns are not always available.  When the shearing is done and the yarns have been dyed and sold, we may have to wait until the next shearing season for more fleece. So, we also carry 5 commercial bases in our store. These bases, in line with our belief in living a gentler, more sustainable life, are all non-superwash and gently produced."]
 
        [:h2 "Non-Local Yarn"]
        (for [{:keys [name weight description] :as yarn} (:yarns site-data)]
