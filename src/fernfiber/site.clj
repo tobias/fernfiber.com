@@ -134,7 +134,17 @@
         "At Fern Fiber we believe in small farms and sustainable fiber. We strive to dye wool that is ecologically raised and processed without the use of harsh chemicals. We support our local community and work closely with fiber and flower farmers, mushroom gatherers, and local companies of the Appalachian Mountains. If we are not gathering materials ourselves from our local forests and gardens, we are getting to know the people who are."]
        [:p.lead
         "In the majestic mountains we call home, ferns grow abundantly in the forests and along sparkling woodland streams. In spring, as the ferns unfurl, tiny new green growth appears. These new leaves represent rebirth, abundance, and connection to the earth. As we gather local herbs, flowers, mushrooms, and barks we think of this earth connection and the way it is portrayed and painted in our yarns. We began our journey as gardeners and herbalists, aligned to the changing seasons and cycles of nature. We delight in using this knowledge of the natural world in our fiber and art."]]]
-     (spacer 20)]))
+     (spacer 20)
+     [:div.row
+      [:div.col-md-12
+       [:iframe
+        {:src "http://snapwidget.com/sc/?u=ZmVybmZpYmVyfGlufDE1MHwzfDN8fG5vfDV8bm9uZXx8eWVzfG5v&ve=300416"
+         :title "Instagram Widget"
+         :class "snapwidget-widget"
+         :allowTransparency "true"
+         :frameborder "0"
+         :scrolling "no"
+         :style "border:none; overflow:hidden; width: 100%; height:150px"}]]]]))
 
 (defn yarn-metric [yarn metric]
   (let [name (str/capitalize (name metric))]
