@@ -3,6 +3,7 @@
             [clojure.string :as str]
             [hiccup.element :refer [image link-to javascript-tag]]
             [hiccup.page :refer [html5 include-css include-js]]
+            [hiccup.util :refer [to-uri]]
             [stasis.core :as stasis]))
 
 (defn spacer [height]
@@ -30,8 +31,9 @@
          (image {:id "navbar-logo"} "img/navbar-logo.png"))]
       [:div#navbar.navbar-collapse.collapse
        [:ul.nav.navbar-nav
-        (for [{:keys [attributes url text]} (:nav site-data)]
-          [:li attributes (link-to url text)])]]]]]])
+        (for [{:keys [attributes url text target]} (:nav site-data)]
+          [:li attributes
+           [:a {:href (to-uri url) :target target} text]])]]]]]])
 
 (defn slideshow [site-data]
   [:div {:style "min-height: 50px;"}

@@ -24,14 +24,14 @@
 
  :nav
  [
-  {:url "http://fernfiber.etsy.com/" :text "SHOP" :attributes {:style "font-weight: bold"}}
-  {:url "http://etsy.com/shop/FernFiber/about/" :text "About Us"}
+  {:url "http://fernfiber.etsy.com/" :text "SHOP" :target "_blank" :attributes {:style "font-weight: bold"}}
+  {:url "http://etsy.com/shop/FernFiber/about/" :target "_blank" :text "About Us"}
   {:url "our-yarns.html" :text "Our Yarns"}
   {:url "faq.html" :text "FAQ"}
   {:url "designs.html" :text "Designs"}
-  {:url "https://facebook.com/pages/Fern-Fiber/747498242023694" :text "On Facebook"}
-  {:url "http://instagram.com/fernfiber/" :text "On Instagram"}
-  {:url "http://pinterest.com/fernfiber/" :text "On Pinterest"}
+  {:url "https://facebook.com/pages/Fern-Fiber/747498242023694" :target "_blank" :text "On Facebook"}
+  {:url "http://instagram.com/fernfiber/" :target "_blank" :text "On Instagram"}
+  {:url "http://pinterest.com/fernfiber/" :target "_blank" :text "On Pinterest"}
   {:url "mailto:info@fernfiber.com" :text "Contact"}
   ]
 
