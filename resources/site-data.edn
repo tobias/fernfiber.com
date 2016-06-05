@@ -164,16 +164,17 @@
    :url "http://www.ravelry.com/patterns/library/polka-dance"
    :img "polkadance6.jpg"}
 
-
   {:name  "Rocky Broad Mitts"
    :designer  "Elizabeth Helmich"
    :description "Bold cabled patterns that go fast and keep your interest throughout. Functional buttons keep the cuff closed once you put the mitts on."
    :url "http://www.ravelry.com/patterns/library/rocky-broad-mitts"
    :img "rocky_broad_mitts_.jpg"}
 
-  
-
-
+  {:name  "Rosemary Mitts"
+   :designer  "Annie Rowden"
+   :description "Simple, striped fingerless mitts with tons of character. They knit up quick and are so comfy to wear. And with five sizes to choose from every member of the family is covered! "
+   :url "http://www.ravelry.com/patterns/library/rosemary-mitts-2"
+   :img "rosemarymitts.jpg"}
 
   {:name  "Phluffle"
    :designer  "Maria Muscarella"
@@ -181,11 +182,13 @@
    :url "http://www.ravelry.com/patterns/library/phluffle"
    :img "phluffle8.jpg"}
 
-  {:name  "Rosemary Mitts"
-   :designer  "Annie Rowden"
-   :description "Simple, striped fingerless mitts with tons of character. They knit up quick and are so comfy to wear. And with five sizes to choose from every member of the family is covered! "
-   :url "http://www.ravelry.com/patterns/library/rosemary-mitts-2"
-   :img "rosemarymitts.jpg"}]}
+  {:name "Sulka Mitts"
+   :designer "Caitlin Hunter"
+   :description "These rustic, homespun mitts are perfect accessory for chilly mornings at the campfire. The feather design is based on a stitch pattern found on one of the oldest pieces of <a href='http://sheepandstitch.com/the-history-of-knitting-part-1-mysterious-origins'>nalbinding</a> (an early predecessor of knitting) ever found. Imagine women of an ancient era creating the same stitch as you knit these gloves, and feel the thread of history binding us together."
+   :url "http://www.ravelry.com/patterns/library/sulka-mitts"
+   :img "sulkamitts.jpg"}
+  
+  ]}
 
 
 
