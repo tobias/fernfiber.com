@@ -126,7 +126,19 @@
   ]
 
  :designs
- [{:name  "Sizzle Pop"
+ [{:name "Sacred Geometry"
+   :designer "Maria Muscarella"
+   :description "An asymmetrical, fractal design with lace-work leaves, based on the Tree of Life."
+   :url "http://www.ravelry.com/patterns/library/sacred-geometry"
+   :img "sacredgeometry.jpg"}
+  
+  {:name "Serafine"
+   :designer "Camille Rosselle"
+   :description "A cozy top down pullover inspired by a painting of the wheat harvest. Published in <a href='https://www.pompommag.com/product/issue-18-autumn-2016-print-digital/'>Pom Pom Quarterly Issue 18, Autumn 2016</a>."
+   :url "http://www.ravelry.com/patterns/library/serafine-2"
+   :img "serafine.jpg"}
+
+  {:name  "Sizzle Pop"
    :designer  "Lesley Ann Robinson"
    :description "Satisfy your brioche cravings with Sizzle Pop. Two shawl patterns in one, both with an all-over chevron lace detail, knit using the two-color brioche stitch!"
    :url "http://www.ravelry.com/patterns/library/sizzle-pop"
@@ -137,8 +149,6 @@
    :description "Forage is an asymmetrical shawl with lace, garter stitch, and a fluttering picot edging. Simple enough to allow enjoyment of your yarn but sophisticated enough to keep your interest."
    :url "http://www.ravelry.com/patterns/library/forage-5"
    :img "forage.jpg"}
-
-
 
   {:name  "Farm Slippers"
    :designer  "Andrea Mowry"
@@ -187,6 +197,8 @@
    :description "These rustic, homespun mitts are perfect accessory for chilly mornings at the campfire. The feather design is based on a stitch pattern found on one of the oldest pieces of <a href='http://sheepandstitch.com/the-history-of-knitting-part-1-mysterious-origins'>nalbinding</a> (an early predecessor of knitting) ever found. Imagine women of an ancient era creating the same stitch as you knit these gloves, and feel the thread of history binding us together."
    :url "http://www.ravelry.com/patterns/library/sulka-mitts"
    :img "sulkamitts.jpg"}
+
+  
   
   ]}
 
