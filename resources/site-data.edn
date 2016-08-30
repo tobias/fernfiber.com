@@ -174,11 +174,11 @@
    :url "http://www.ravelry.com/patterns/library/polka-dance"
    :img "polkadance6.jpg"}
 
-  {:name  "Rocky Broad Mitts"
-   :designer  "Elizabeth Helmich"
-   :description "Bold cabled patterns that go fast and keep your interest throughout. Functional buttons keep the cuff closed once you put the mitts on."
-   :url "http://www.ravelry.com/patterns/library/rocky-broad-mitts"
-   :img "rocky_broad_mitts_.jpg"}
+  {:name "Autumn Pond"
+   :designer "Nailya Plaskey"
+   :description "Nailya's inspiration for this shawl came from a vision of autumn leaves overlapping over a pond water. This asymmetric triangular shawl starts with a single leaf and increases into a body of leaves drooping over the water."
+   :url "http://www.ravelry.com/patterns/library/autumn-pond-shawl"
+   :img "autumnpond.jpg"}
 
   {:name  "Rosemary Mitts"
    :designer  "Annie Rowden"
@@ -198,8 +198,13 @@
    :url "http://www.ravelry.com/patterns/library/sulka-mitts"
    :img "sulkamitts.jpg"}
 
-  
-  
+  {:name  "Rocky Broad Mitts"
+   :designer  "Elizabeth Helmich"
+   :description "Bold cabled patterns that go fast and keep your interest throughout. Functional buttons keep the cuff closed once you put the mitts on."
+   :url "http://www.ravelry.com/patterns/library/rocky-broad-mitts"
+   :img "rocky_broad_mitts_.jpg"}
+
+      
   ]}
 
 
