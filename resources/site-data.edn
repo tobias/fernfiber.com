@@ -126,7 +126,20 @@
   ]
 
  :designs
- [{:name "Sacred Geometry"
+ [{:name "Bahaal"
+   :designer "Annie Rowden"
+   :description "Worked in sections of straight forward Stockinette Stitch and double yarn overs, Bahaal uses the Fibonacci Sequence - a sequence found over and over again in nature and extremely pleasing to the eye. The result is a healthy sized shawl with clean and orderly texture that hugs the shoulders as it hangs."
+   :url "http://www.ravelry.com/patterns/library/bahaal"
+   :img "bahaal.png"}
+
+  {:name "Fleece Flight"
+   :designer "Maria Muscarella"
+   :description "<i>Fleece Flight (noun): A grouping of similar weight yarns used for sampling their fleecy fabulousness</i><br/><br/>  
+Throughout the world, there are over 1,000 distinct breeds of sheep, yet many of us are only exposed to a few of the most common in our everyday knitting.  Fleece Flight is a wonderful way to branch out and experience some of those rare yarns you have been missing.  Built through short row, garter stitch triangles, this small, medium, or large shawl uses Heritage Sheep yarns from small farms.  <b>All proceeds raised from the sale of this pattern go to support <a href='http://livestockconservancy.org'>The Livestock Conservancy</a>.</b>"
+   :url "http://www.ravelry.com/patterns/library/fleece-flight"
+   :img "fleece-flight.png"}
+  
+  {:name "Sacred Geometry"
    :designer "Maria Muscarella"
    :description "An asymmetrical, fractal design with lace-work leaves, based on the Tree of Life."
    :url "http://www.ravelry.com/patterns/library/sacred-geometry"
