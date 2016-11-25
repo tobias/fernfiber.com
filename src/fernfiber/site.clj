@@ -94,7 +94,7 @@
   [:div#enticement.boxaloo
    [:h3 "Welcome!"]
    (image {:class "close-x subscribe-decline"} "img/x.png")   
-   [:p "Sign up for our Fern Fiber Email Newsletter for a free winter tea recipe. Stay up to date with new yarns, coupons, free patterns, tutorials, and more:"]
+   [:p "Sign up for the Fern Fiber Email Newsletter for a free winter tea recipe. Stay up to date with new yarns, coupons, free patterns, tutorials, and more:"]
    (signup-form true)])
 
 (defn page [site-data & body]
