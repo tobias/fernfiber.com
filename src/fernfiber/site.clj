@@ -63,6 +63,40 @@
                       :style "width: 55px; height: 55px; top: 123px; right: 8px;"}]
     (link-to {:style "display: none;"} "http://www.jssor.com" "Image Slider")]])
 
+(defn signup-form [decline?]
+  [:form.validate ;;.form-horizontal
+   {:action "http://fernfiber.us10.list-manage.com/subscribe/post?u=527190f152e3871cea7c8a657&amp;id=67db298ab1"
+    :method "post"
+    :name "mc-embedded-subscribe-form"
+    :target "_blank"
+    :novalidate ""}
+   [:div.form-group
+    [:input.form-control
+     {:type "email"
+      :name "EMAIL"
+      :value ""
+      :placeholder "email address"
+      :required ""}]]
+   [:div {:style "position: absolute; left: -5000px;"}
+    [:input {:type "text"
+             :name "b_527190f152e3871cea7c8a657_67db298ab1"
+             :tabindex "-1"
+             :value ""}]]
+   [:input.subscribe-button.btn.btn-primary
+    {:type "submit"
+     :value "Subscribe"
+     :name "subscribe"}]
+   (when decline?
+     [:a.subscribe-decline
+      "No thanks"])])
+
+(def enticement
+  [:div#enticement.boxaloo
+   [:h3 "Welcome!"]
+   (image {:class "close-x subscribe-decline"} "img/x.png")   
+   [:p "Sign up for our Fern Fiber Email Newsletter for a free winter tea recipe. Stay up to date with new yarns, coupons, free patterns, tutorials, and more:"]
+   (signup-form true)])
+
 (defn page [site-data & body]
   (html5
     [:head
@@ -78,13 +112,14 @@
     [:body
      (navbar site-data)
      body
+     enticement
      [:div.container
       [:footer
        [:p.pull-left "Fern logo by "
         (link-to "http://www.constancelombardo.com/" "Constance Lombardo")]
        [:p.pull-right "&copy; Fern Fiber 2015-2016"]]]
      (include-js
-       "js/jquery-1.9.1.min.js"
+       "js/jquery-3.1.1.min.js"
        "js/bootstrap.min.js"
        "js/docs.min.js"
        "js/ie10-viewport-bug-workaround.js"
@@ -106,30 +141,9 @@
      [:div.row.featurette
       [:div.col-md-12
        (image {:class "pull-left logo-inline"} "img/logo.png")
-       [:div#mc_embed_signup.pull-right
+       [:div#mc_embed_signup.pull-right.boxaloo
         [:p "Join our mailing list for shop updates and our newsletter:"]
-        [:form#mc-embedded-subscribe-form.validate ;;.form-horizontal
-         {:action "http://fernfiber.us10.list-manage.com/subscribe/post?u=527190f152e3871cea7c8a657&amp;id=67db298ab1"
-          :method "post"
-          :name "mc-embedded-subscribe-form"
-          :target "_blank"
-          :novalidate ""}
-         [:div.form-group
-          [:input#mce-EMAIL.form-control
-           {:type "email"
-            :name "EMAIL"
-            :value ""
-            :placeholder "email address"
-            :required ""}]]
-         [:div {:style "position: absolute; left: -5000px;"}
-          [:input {:type "text"
-                   :name "b_527190f152e3871cea7c8a657_67db298ab1"
-                   :tabindex "-1"
-                   :value ""}]]
-         [:input#mc-embedded-subscribe.btn.btn-primary
-          {:type "submit"
-           :value "Subscribe"
-           :name "subscribe"}]]]
+        (signup-form false)]
        [:p.lead
         "At Fern Fiber we believe in small farms and sustainable fiber. We strive to dye wool that is ecologically raised and processed without the use of harsh chemicals. We support our local community and work closely with fiber and flower farmers, mushroom gatherers, and local companies of the Appalachian Mountains. If we are not gathering materials ourselves from our local forests and gardens, we are getting to know the people who are."]
        [:p.lead
@@ -138,7 +152,7 @@
      [:div.row
       [:div.col-md-12
        [:iframe
-        {:src "http://snapwidget.com/sc/?u=ZmVybmZpYmVyfGlufDE1MHwzfDN8fG5vfDV8bm9uZXx8eWVzfG5v&ve=300416"
+        {:src "https://snapwidget.com/embed/code/213774"
          :title "Instagram Widget"
          :class "snapwidget-widget"
          :allowTransparency "true"

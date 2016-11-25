@@ -1,14 +1,15 @@
 #mc_embed_signup {
+    width: 200px;
+    margin: 5px;    
+}
+
+.boxaloo {
     background:#fff;
     background-color: #f8f8f8;
     padding: 5px;
-    border: 1px solid #e7e7e7;
+    border: 3px solid #ddd;
     border-radius: 5px;
-    margin: 5px;
-    width: 200px;
-
-}
-
+ }
 
 /* use navbar-wrapper to wrap navigation bar, the purpose is to overlay navigation bar above slider */
 .navbar-wrapper {
@@ -105,7 +106,6 @@
 .share-googleplus:hover {
     background-position: -120px -40px;
 }
-
 
 .share-stumbleupon {
     background-position: -360px 0px;
@@ -235,4 +235,27 @@
 
 .design img {
     max-width: 95%;
+}
+
+#enticement {
+    display: none;
+    width: 300px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: 3px solid black;
+    padding: 10px;
+    padding-top: 0px;
+    Background-color: #ecd9c6;
+}
+
+#enticement .subscribe-decline {
+    margin-left: 10px;
+}
+
+#enticement .close-x {
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }

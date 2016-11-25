@@ -54,8 +54,22 @@ jQuery(document).ready(function ($) {
   }
   ScaleSlider();
 
-  $(window).bind("load", ScaleSlider);
-  $(window).bind("resize", ScaleSlider);
-  $(window).bind("orientationchange", ScaleSlider);
+  $(window).on("load", ScaleSlider);
+  $(window).on("resize", ScaleSlider);
+  $(window).on("orientationchange", ScaleSlider);
   //responsive code end
 });
+
+jQuery(document).ready(function($) {
+  click = function() {
+    $("#enticement").slideToggle();
+    localStorage.setItem("enticed", "1");
+  };
+  $(".subscribe-decline").on("click", click);
+  $(".subscribe-button").on("click", click);
+  
+  setTimeout(function () {
+    if (localStorage.getItem("enticed") != "1") {
+      $("#enticement").slideToggle();
+    }
+  }, 2000)});
