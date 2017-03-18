@@ -126,7 +126,19 @@
   ]
 
  :designs
- [{:name "Bahaal"
+ [{:name  "Silvermine"
+   :designer  "Christina Danaee"
+   :description "Silvermine is worked top-down and separated into sections by garter rows.  Silvermine was designed featuring smaller, more delicate bobbles."
+   :url "http://www.ravelry.com/patterns/library/silvermine-2"
+   :img "silvermine.jpg"}
+
+  {:name  "Waterrock"
+   :designer  "Jennifer Kelley"
+   :description "Waterrock is a slightly cropped top that can either be worn as a layering piece, or alone as a summer top. Featuring lots of texture, and a split hem, it’s sure to be a staple in your wardrobe."
+   :url "http://www.ravelry.com/patterns/library/waterrock"
+   :img "waterrock.jpg"}
+
+  {:name "Bahaal"
    :designer "Annie Rowden"
    :description "Worked in sections of straight forward Stockinette Stitch and double yarn overs, Bahaal uses the Fibonacci Sequence - a sequence found over and over again in nature and extremely pleasing to the eye. The result is a healthy sized shawl with clean and orderly texture that hugs the shoulders as it hangs."
    :url "http://www.ravelry.com/patterns/library/bahaal"
@@ -217,7 +229,7 @@ Throughout the world, there are over 1,000 distinct breeds of sheep, yet many of
    :url "http://www.ravelry.com/patterns/library/rocky-broad-mitts"
    :img "rocky_broad_mitts_.jpg"}
 
-      
+  
   ]}
 
 
