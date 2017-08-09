@@ -259,3 +259,12 @@
     top: 5px;
     right: 5px;
 }
+
+div.closing {
+    padding: 10px 10px 0 10px;
+    margin-bottom: 10px;
+}
+
+div.closing p {
+    font-weight: bold !important;
+}

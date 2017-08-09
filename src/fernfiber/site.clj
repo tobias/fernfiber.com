@@ -112,7 +112,7 @@
     [:body
      (navbar site-data)
      body
-     enticement
+     #_enticement
      [:div.container
       [:footer
        [:p.pull-left "Fern logo by "
@@ -140,14 +140,28 @@
      (spacer 20)
      [:div.row.featurette
       [:div.col-md-12
-       (image {:class "pull-left logo-inline"} "img/logo.png")
-       [:div#mc_embed_signup.pull-right.boxaloo
+       
+       #_[:div#mc_embed_signup.pull-right.boxaloo
         [:p "Join our mailing list for shop updates and our newsletter:"]
-        (signup-form false)]
-       [:p.lead
-        "At Fern Fiber we believe in small farms and sustainable fiber. We strive to dye wool that is ecologically raised and processed without the use of harsh chemicals. We support our local community and work closely with fiber and flower farmers, mushroom gatherers, and local companies of the Appalachian Mountains. If we are not gathering materials ourselves from our local forests and gardens, we are getting to know the people who are."]
-       [:p.lead
-        "In the majestic mountains we call home, ferns grow abundantly in the forests and along sparkling woodland streams. In spring, as the ferns unfurl, tiny new green growth appears. These new leaves represent rebirth, abundance, and connection to the earth. As we gather local herbs, flowers, mushrooms, and barks we think of this earth connection and the way it is portrayed and painted in our yarns. We began our journey as gardeners and herbalists, aligned to the changing seasons and cycles of nature. We delight in using this knowledge of the natural world in our fiber and art."]]]
+          (signup-form false)]
+       [:div.closing.boxaloo
+        [:p.lead
+         "The past two and a half years have been an amazing opportunity to connect with our fiber community around the world.  Our journey through Fern Fiber has opened doors to new friendships and possibilities.  We are so thankful for what you have brought to us, and for the desire to create beautiful yarns for you.  We appreciate your support and love more than you will know."]
+
+        [:p.lead
+         "After much thought, we have decided to close Fern Fiber.  We officially opened on the first day of Spring and so we will close our shop on Sept. 22nd, the first day of Autumn.  Until then, all of our yarns are 20% off.  There is a very limited quantity left, so get them while you can."]
+
+        [:p.lead
+         "This fall, we hope to delve deeper into new passions and spend more time with family.  Through Fern Fiber, our friendship has continued to blossom and we look forward to more adventures together."]
+
+        [:p.lead
+         "Love, <br/>Maria & Nikki"]]
+       [:div
+        (image {:class "pull-left logo-inline"} "img/logo.png")
+        [:p.lead
+         "At Fern Fiber we believe in small farms and sustainable fiber. We strive to dye wool that is ecologically raised and processed without the use of harsh chemicals. We support our local community and work closely with fiber and flower farmers, mushroom gatherers, and local companies of the Appalachian Mountains. If we are not gathering materials ourselves from our local forests and gardens, we are getting to know the people who are."]
+        [:p.lead
+         "In the majestic mountains we call home, ferns grow abundantly in the forests and along sparkling woodland streams. In spring, as the ferns unfurl, tiny new green growth appears. These new leaves represent rebirth, abundance, and connection to the earth. As we gather local herbs, flowers, mushrooms, and barks we think of this earth connection and the way it is portrayed and painted in our yarns. We began our journey as gardeners and herbalists, aligned to the changing seasons and cycles of nature. We delight in using this knowledge of the natural world in our fiber and art."]]]]
      (spacer 20)
      [:div.row
       [:div.col-md-12
