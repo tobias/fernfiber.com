@@ -146,14 +146,7 @@
           (signup-form false)]
        [:div.closing.boxaloo
         [:p.lead
-         "The past two and a half years have been an amazing opportunity to connect with our fiber community around the world.  Our journey through Fern Fiber has opened doors to new friendships and possibilities.  We are so thankful for what you have brought to us, and for the desire to create beautiful yarns for you.  We appreciate your support and love more than you will know."]
-
-        [:p.lead
-         "After much thought, we have decided to close Fern Fiber.  We officially opened on the first day of Spring and so we will close our shop on Sept. 22nd, the first day of Autumn.  Until then, all of our yarns are 20% off.  There is a very limited quantity left, so get them while you can."]
-
-        [:p.lead
-         "This fall, we hope to delve deeper into new passions and spend more time with family.  Through Fern Fiber, our friendship has continued to blossom and we look forward to more adventures together."]
-
+         "The past two and a half years have been an amazing opportunity to connect with our fiber community around the world.  Our journey through Fern Fiber has opened doors to new friendships and possibilities.  We are so thankful for what you have brought to us, and for the desire to create beautiful yarns for you.  We appreciate your support and love more than you will know. Fern Fiber is officially closed."]
         [:p.lead
          "Love, <br/>Maria & Nikki"]]
        [:div
